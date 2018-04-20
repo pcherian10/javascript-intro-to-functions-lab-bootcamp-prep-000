@@ -15,6 +15,7 @@ function logShout(string) {
 }
 
 function sayHiToGrandma(string) {
+  
   var allLowerCase = string.toLowerCase()
   var allUpperCase = string.toUpperCase()
   
@@ -24,7 +25,8 @@ function sayHiToGrandma(string) {
   if(allUpperCase === string)
     return "YES INDEED!"
   
-  if()
+  if(string === "I love you, Grandma.")
+    return "I love you, too"
   
 }
 
