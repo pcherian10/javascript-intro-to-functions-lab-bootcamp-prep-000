@@ -16,9 +16,13 @@ function logShout(string) {
 
 function sayHiToGrandma(string) {
   var allLowerCase = string.toLowerCase()
+  var allUpperCase = string.toUpperCase()
+  
   if(allLowerCase === string)
     return "I can't hear you!"
-    
+  
+  if(allUpperCase === string)
+    return ""
   
 }
 
